@@ -1,0 +1,241 @@
+/* header-start  */
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto&display=swap');
+
+/* common styles */
+body {
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.fontcolor{
+    color: white;
+}
+/* photo-banner */
+.photo-banner {
+    position: absolute;
+    height: 400px;
+    width: 80%;
+    background: #020643;
+    border-radius: 35px;
+    top: 50px;
+    left: 145px;
+    display: flex;
+    justify-content: space-around;
+}
+.section1 {
+    position: absolute;
+    width: 520px;
+    height: 410px;
+    left: 140px;
+    top: 60px;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    text-align: left;
+}
+.left-p{
+    text-align: left;
+    width:
+}
+/* button  */
+.head-button {
+    background-color: #37bade;
+    height: 50px;
+    width: 200px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.fa-ticket {
+    color: black;
+    padding-left: 10px;
+}
+/* image  */
+.photo {
+    position: absolute;
+    height: 705px;
+    width: 715px;
+    left: 1000px;
+    /* right: 140px; */
+    top: 60px;
+}
+/* ------------------------------------------------------------header-end */
+
+
+section{
+    display: flex;
+    position: absolute;
+    top: 600px;
+}
+
+
+/* ---------------------------------------------------main-BLOGS-start  */   
+.white-space{
+    width: 35%;
+}
+.box-1{
+    background-color: rgb(6, 3, 90);
+    border: 5px;
+    width: 300px;
+    border-radius: 13px;
+    margin-left: 100px;
+    margin-top: 33px;
+}
+.boxes-1{
+    margin: 10px;
+   ;
+}
+.button-3{
+    width: 240px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 20px;
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ------------------------------------------------------main-BLOGS-end  */
+
+/* optional */
+#blog-color:hover{
+    background-color: rgb(23, 171, 235);
+    color:rgb(235, 229, 222);
+}
+#upcoming-color:hover {
+    background-color: rgb(23, 171, 235);
+    color:rgb(235, 229, 222);
+}
+#group-color:hover {
+    background-color: rgb(23, 171, 235);
+    color:rgb(235, 229, 222);
+}
+/* optional  */
+
+/*-------------------------------------------- main-UPCOMING-MATCH-start  */
+.boxes-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 70%;
+    margin-left: 70px;
+    
+} 
+
+.button-6{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(27, 15, 24);
+    color: rgb(245, 241, 233);
+    font-weight: 700;
+    border-radius: 7px;
+    margin-left: 21px;
+}
+/* icon  */
+.inline{
+    display: flex; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inline-icon{
+    width: 30px;
+    height: 30px;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+.flex{
+    display: flex;
+}
+/* icon  */
+.vs-space{
+    display: inline-block;
+    padding: 20px;
+}
+h3 , p{
+    text-align: center;
+    
+    color: rgb(128, 121, 121);
+}
+.box{
+    border: 2px solid rgb(176, 176, 181);
+    border-radius: 9px;
+    padding-left: 0;
+    margin:35px;
+    width: 310px;
+    background-color: rgb(174, 239, 242);
+}
+.flag{
+   margin-left: 30px;
+   margin-top: 20px;
+}
+/* ----------------------------------------------main-UPCOMING-MATCH-end  */
+button > a{
+    text-decoration: none;
+    color: rgb(214, 53, 117);
+}
+button  > a:hover{
+    color: azure;
+}
+/* -----------------------------------------------------footer-start  */
+.goal {
+    position: absolute;
+    width: 100%;
+    height: 444px;
+    left: 0px;
+    top: 1460px;
+    background: #060747;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+hr {
+    position: absolute;
+    width: 80%;
+    height: 0%;
+    top: 1705px;
+    left: 10%;
+    border: 1px solid white;
+}
+.pitch-1 {
+    position: absolute;
+   top: 1760px;
+   left: 20%;
+   right: 15%;
+  font-size: larger;
+}
+
+.space-1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pitch-2 {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 1860px;
+}
+
+.space-2 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.fa-brands {
+    font-size: 40px;
+    color: white;
+}
+/* footer-end  */
+
+
+
+/* MEDIA QUERIES 
+---------------- */
+
+/* tablet devices  */
+@media only screen and (minimum-width:688px) {
+    
+}
